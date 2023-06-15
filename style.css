@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.meme{
+    margin-top: 50px;
+    background-color: brown;
+    min-height: 500px;
+    width: 400px;
+
+}
+button{
+    height: 40px;
+    width: 150px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: 2s ease-in-out linear;
+    margin-top: 30px;
+    margin-left: 130px;
+
+}
+button:hover{
+    
+    background-color: darkgoldenrod;
+    width: 300px;
+}
